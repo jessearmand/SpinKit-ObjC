@@ -57,7 +57,11 @@
     [self insertSpinnerOfStyle: RTSpinKitViewStyleThreeBounce
                backgroundColor:[UIColor colorWithRed:0.83 green:0.33 blue:0.0 alpha:1.0]
                          label:@"ThreeBounce"];
-    
+
+    [self insertSpinnerOfStyle:RTSpinKitViewStyleThreeBounceVertical
+               backgroundColor:[UIColor colorWithRed:0.83 green:0.33 blue:0.0 alpha:1.0]
+                         label:@"ThreeBounceVertical"];
+
     [self insertSpinnerOfStyle: RTSpinKitViewStyleCircle
                backgroundColor:[UIColor colorWithRed:0.15 green:0.68 blue:0.38 alpha:1.0]
                          label:@"Circle"];

@@ -35,6 +35,7 @@
 #import "RTSpinKitPlaneAnimation.h"
 #import "RTSpinKitPulseAnimation.h"
 #import "RTSpinKitThreeBounceAnimation.h"
+#import "RTSpinKitThreeBounceVerticalAnimation.h"
 #import "RTSpinKitWanderingCubesAnimation.h"
 #import "RTSpinKitWaveAnimation.h"
 #import "RTSpinKitWordPressAnimation.h"
@@ -81,6 +82,9 @@ NSObject<RTSpinKitAnimating>* RTSpinKitAnimationFromStyle(RTSpinKitViewStyle sty
 
         case RTSpinKitViewStyleThreeBounce:
             return [[RTSpinKitThreeBounceAnimation alloc] init];
+
+        case RTSpinKitViewStyleThreeBounceVertical:
+            return [[RTSpinKitThreeBounceVerticalAnimation alloc] init];
 
         case RTSpinKitViewStyleCircle:
             return [[RTSpinKitCircleAnimation alloc] init];

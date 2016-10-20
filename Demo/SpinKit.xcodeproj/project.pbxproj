@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01B8BD421DB8736D009BB953 /* RTSpinKitThreeBounceVerticalAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B8BD411DB8736D009BB953 /* RTSpinKitThreeBounceVerticalAnimation.m */; };
 		028F586B19C75CBE0070546A /* RTSpinKitArcAltAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 028F586A19C75CBD0070546A /* RTSpinKitArcAltAnimation.m */; };
 		02EE552619C22DA600D58D49 /* RTSpinKitArcAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EE552519C22DA600D58D49 /* RTSpinKitArcAnimation.m */; };
 		F646194B1874E9FB00ED6B1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F646194A1874E9FB00ED6B1B /* Foundation.framework */; };
@@ -22,7 +23,7 @@
 		F646197E1874EC8D00ED6B1B /* RTTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F646197D1874EC8D00ED6B1B /* RTTestViewController.m */; };
 		F646198218753E5200ED6B1B /* RTSpinKitView.m in Sources */ = {isa = PBXBuildFile; fileRef = F646198118753E5200ED6B1B /* RTSpinKitView.m */; };
 		F646198418753F2400ED6B1B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F646198318753F2400ED6B1B /* Images.xcassets */; };
-		F66970181BD2285000450708 /* LanchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F66970171BD2285000450708 /* LanchScreen.xib */; settings = {ASSET_TAGS = (); }; };
+		F66970181BD2285000450708 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F66970171BD2285000450708 /* LaunchScreen.xib */; };
 		F6BC23C219B972340055D239 /* RTSpinKit9CubeGridAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BC23A919B972340055D239 /* RTSpinKit9CubeGridAnimation.m */; };
 		F6BC23C319B972340055D239 /* RTSpinKitBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BC23AB19B972340055D239 /* RTSpinKitBounceAnimation.m */; };
 		F6BC23C419B972340055D239 /* RTSpinKitChasingDotsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F6BC23AD19B972340055D239 /* RTSpinKitChasingDotsAnimation.m */; };
@@ -50,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01B8BD401DB8736D009BB953 /* RTSpinKitThreeBounceVerticalAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitThreeBounceVerticalAnimation.h; sourceTree = "<group>"; };
+		01B8BD411DB8736D009BB953 /* RTSpinKitThreeBounceVerticalAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitThreeBounceVerticalAnimation.m; sourceTree = "<group>"; };
 		028F586919C75CBD0070546A /* RTSpinKitArcAltAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitArcAltAnimation.h; sourceTree = "<group>"; };
 		028F586A19C75CBD0070546A /* RTSpinKitArcAltAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKitArcAltAnimation.m; sourceTree = "<group>"; usesTabs = 0; };
 		02EE552419C22DA600D58D49 /* RTSpinKitArcAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitArcAnimation.h; sourceTree = "<group>"; };
@@ -73,7 +76,7 @@
 		F646198018753E5200ED6B1B /* RTSpinKitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTSpinKitView.h; path = ../../SpinKit/RTSpinKitView.h; sourceTree = "<group>"; usesTabs = 0; };
 		F646198118753E5200ED6B1B /* RTSpinKitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTSpinKitView.m; path = ../../SpinKit/RTSpinKitView.m; sourceTree = "<group>"; usesTabs = 0; };
 		F646198318753F2400ED6B1B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F66970171BD2285000450708 /* LanchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LanchScreen.xib; sourceTree = "<group>"; };
+		F66970171BD2285000450708 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		F6BC23A819B972340055D239 /* RTSpinKit9CubeGridAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKit9CubeGridAnimation.h; sourceTree = "<group>"; };
 		F6BC23A919B972340055D239 /* RTSpinKit9CubeGridAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSpinKit9CubeGridAnimation.m; sourceTree = "<group>"; };
 		F6BC23AA19B972340055D239 /* RTSpinKitBounceAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSpinKitBounceAnimation.h; sourceTree = "<group>"; };
@@ -179,7 +182,7 @@
 				F64619521874E9FB00ED6B1B /* SpinKit-Info.plist */,
 				F64619561874E9FB00ED6B1B /* main.m */,
 				F64619581874E9FB00ED6B1B /* SpinKit-Prefix.pch */,
-				F66970171BD2285000450708 /* LanchScreen.xib */,
+				F66970171BD2285000450708 /* LaunchScreen.xib */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -238,6 +241,8 @@
 				F6BC23B919B972340055D239 /* RTSpinKitPulseAnimation.m */,
 				F6BC23BA19B972340055D239 /* RTSpinKitThreeBounceAnimation.h */,
 				F6BC23BB19B972340055D239 /* RTSpinKitThreeBounceAnimation.m */,
+				01B8BD401DB8736D009BB953 /* RTSpinKitThreeBounceVerticalAnimation.h */,
+				01B8BD411DB8736D009BB953 /* RTSpinKitThreeBounceVerticalAnimation.m */,
 				F6BC23BC19B972340055D239 /* RTSpinKitWanderingCubesAnimation.h */,
 				F6BC23BD19B972340055D239 /* RTSpinKitWanderingCubesAnimation.m */,
 				F6BC23BE19B972340055D239 /* RTSpinKitWaveAnimation.h */,
@@ -332,7 +337,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F66970181BD2285000450708 /* LanchScreen.xib in Resources */,
+				F66970181BD2285000450708 /* LaunchScreen.xib in Resources */,
 				F646198418753F2400ED6B1B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,6 +360,7 @@
 				028F586B19C75CBE0070546A /* RTSpinKitArcAltAnimation.m in Sources */,
 				F6BC23CB19B972340055D239 /* RTSpinKitThreeBounceAnimation.m in Sources */,
 				F6BC23CA19B972340055D239 /* RTSpinKitPulseAnimation.m in Sources */,
+				01B8BD421DB8736D009BB953 /* RTSpinKitThreeBounceVerticalAnimation.m in Sources */,
 				F646195B1874E9FB00ED6B1B /* RTAppDelegate.m in Sources */,
 				F646198218753E5200ED6B1B /* RTSpinKitView.m in Sources */,
 				F6BC23C619B972340055D239 /* RTSpinKitCircleFlipAnimation.m in Sources */,
